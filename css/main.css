@@ -1,0 +1,65 @@
+body{
+    background-image: url('../img/tic-tac-toe-image.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0); 
+  }
+
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+ 
+  .gameBox{
+    width: 39em;
+    overflow: auto;
+    margin-left:  auto;
+    margin-right: auto;
+    background: #666;
+    border-radius: 10px;
+  }
+
+  
+
+  .gameBoard{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr ;
+    grid-gap: 1em;
+    height: 17em;
+    width: 5em;
+    font-size: 2em;
+    color: #ccc;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .box-style {
+   background-color: rgb(0, 132, 255);
+   width: 5em;
+   height: 5em; margin-top:auto;
+   margin-bottom: auto;
+  }
+
+  #reset{
+    border: 0;
+    background: #444;
+    color: #fff;
+    width: 39em;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .o{
+    color: green;
+  }
+
+  .x{
+    color: red;
+  }
+
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
